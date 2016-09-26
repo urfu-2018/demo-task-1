@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "test": "mocha test"
+  },
+  "private": true,
+  "dependencies": {
+    "mocha": "3.0.2"
+  }
+}
