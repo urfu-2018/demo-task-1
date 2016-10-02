@@ -1,8 +1,5 @@
 {
   "private": true,
-  "eslintConfig": {
-    "extends": "hrundel/node"
-  },
   "scripts": {
     "lint": "eslint .",
     "test": "eslint . && mocha test"

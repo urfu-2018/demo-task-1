@@ -13,4 +13,3 @@
 строки набрав `node index.js`
 
 ![](http://desktophqwallpapers.eu/Uploads/25-4-2016/21489/thumb-formula-mathematics-texture.jpg)
-
