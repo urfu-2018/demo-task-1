@@ -1,3 +1,6 @@
+/* eslint-env mocha */
+'use strict';
+
 var sum = require('../math').sum;
 var assert = require('assert');
 
