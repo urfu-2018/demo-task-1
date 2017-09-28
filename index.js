@@ -1,6 +1,6 @@
 'use strict';
 
-var sum = require('./math').sum;
+const { sum } = require('./math');
 
 console.info(sum(1, 2));
 // 3

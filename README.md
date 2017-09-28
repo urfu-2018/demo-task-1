@@ -21,7 +21,7 @@
 
 ## Дополнительное задание
 
-> Перед выполнением внимательно прочитайте [про особенности](https://github.com/urfu-2016/guides/blob/master/workflow/extra.md)
+> Перед выполнением внимательно прочитайте [про особенности](https://github.com/urfu-2017/guides/blob/master/workflow/extra.md)
 
 Реализовать сложение трёх чисел – `a`, `b` и `c`.
 
