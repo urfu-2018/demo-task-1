@@ -1,7 +1,9 @@
 {
   "extends": "hrundel/node",
-  "parser": "babel-eslint",
   "parserOptions": {
-    "sourceType": "script"
+    "ecmaVersion": 2018
+  },
+  "env": {
+    "es6": true
   }
 }

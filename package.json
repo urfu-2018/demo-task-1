@@ -3,12 +3,11 @@
   "main": "math.js",
   "scripts": {
     "lint": "eslint .",
-    "test": "eslint . && mocha test"
+    "test": "npm run lint && mocha --exit test"
   },
   "dependencies": {
-    "babel-eslint": "8.0.1",
-    "eslint": "4.7.2",
+    "eslint": "4.8.0",
     "eslint-config-hrundel": "latest",
-    "mocha": "3.5.3"
+    "mocha": "5.2.0"
   }
 }
