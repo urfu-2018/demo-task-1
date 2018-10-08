@@ -4,5 +4,9 @@ exports.isStar = true;
 
 exports.sum = function (a, b) {
     // Реализуйте сложение в этой функции
-    return parseFloat(a) + parseFloat(b);
+	var floatA = parseFloat(a);
+	var floatB = parseFloat(b);
+	if (!isNaN(floatA) || !isNaN(floatB)){
+			return floatA + floatB;
+	}
 };
