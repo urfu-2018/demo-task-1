@@ -3,9 +3,9 @@
 exports.isStar = true;
 
 exports.sum = function (a, b) {
-        return parseInt(a) + parseInt(b);
+        return Number(a) + Number(b);
 };
 
 exports.sum = function (a, b, c) {
-        return parseInt(a) + parseInt(b) + parseInt(c);
+        return Number(a) + Number(b) + Number(c);
 };
