@@ -3,7 +3,7 @@
 exports.isStar = true;
 
 exports.sum = function (a, b, c) {
-    if (c === null) {
+    if (c === undefined) {
         c = 0;
     }
 
