@@ -2,8 +2,6 @@
 
 exports.isStar = true;
 
-exports.sum = function (a, b) {
-    var n1 = parseInt(a);
-    var n2 = parseInt(b);
-    return n1 + n2;
+exports.sum = function (a, b, c=0) {
+    return parseInt(a) + parseInt(b);
 };
