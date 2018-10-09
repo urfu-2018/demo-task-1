@@ -4,16 +4,22 @@ exports.isStar = true;
 
 exports.sum = function (a, b) 
 {
-    if (!a.isNaN && !b.isNaN)
+    oneArg = parseFloat(a);
+    twoArg = parseFloat(b);
+    if (!a
+        oneArg.isNaN && !twoArg.isNaN)
     {
-        return a+b;
+        return oneArg+twoArg;
     }
 };
 
 exports.sum = function (a, b, c)
 {
-    if (!a.isNaN && !b.isNaN && !c.isNaN)
+    oneArg = parseFloat(a);
+    twoArg = parseFloat(b);
+    threeArg = parseFloat(c);
+    if (!oneArg.isNaN && !twoArg.isNaN && !threeArg.isNaN)
 	{
-	    return a+b+c;
+	    return oneArg+twoArg+threeArg;
 	}
 }
