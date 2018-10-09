@@ -3,5 +3,7 @@
 exports.isStar = true;
 
 exports.sum = function (a, b) {
-    // Реализуйте сложение в этой функции
+    var n1 = parseInt(a);
+    var n2 = parseInt(b);
+    return n1 + n2;
 };
