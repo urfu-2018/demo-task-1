@@ -9,5 +9,9 @@
     "eslint": "4.8.0",
     "eslint-config-hrundel": "latest",
     "mocha": "5.2.0"
+  },
+  "devDependencies": {
+    "stylelint": "9.6.0",
+    "stylelint-config-hrundel": "2.0.0"
   }
 }
