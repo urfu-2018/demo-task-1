@@ -2,6 +2,13 @@
 
 exports.isStar = true;
 
-exports.sum = function (a, b) {
-    // Реализуйте сложение в этой функции
+exports.sum = function (a, b, c) {
+    let s = a + b;
+    if (typeof c !== 'undefined') {
+        s += c;
+    }
+
+    return s;
 };
+
+
