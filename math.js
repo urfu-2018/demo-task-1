@@ -2,11 +2,7 @@
 
 exports.isStar = true;
 
-exports.sum = function (a, b) {
+exports.sum = function (a = 0, b = 0) {
     // Реализуйте сложение в этой функции
-	var floatA = parseFloat(a);
-	var floatB = parseFloat(b);
-	if (!isNaN(floatA) || !isNaN(floatB)){
-			return floatA + floatB;
-	}
+	return parseFloat(a) + parseFloat(b);
 };
