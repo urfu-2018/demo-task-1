@@ -7,5 +7,6 @@ exports.sum = function () {
     for (let i = 0; i < arguments.length; i++) {
         sum += parseInt(arguments[i]);
     }
+
     return sum;
 };
