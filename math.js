@@ -6,8 +6,7 @@ exports.sum = function (a, b)
 {
     oneArg = parseFloat(a);
     twoArg = parseFloat(b);
-    if (!a
-        oneArg.isNaN && !twoArg.isNaN)
+    if (!oneArg.isNaN && !twoArg.isNaN)
     {
         return oneArg+twoArg;
     }
