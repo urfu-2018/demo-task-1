@@ -2,6 +2,7 @@
 
 exports.isStar = true;
 
-exports.sum = function (a, b) {
-    // Реализуйте сложение в этой функции
+exports.sum = function (...args) {
+    return args.map(Number).reduce((a, b)=>a + b);
 };
+
