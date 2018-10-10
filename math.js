@@ -3,5 +3,5 @@
 exports.isStar = true;
 
 exports.sum = function (a, b) {
-    return a + b;
+    if (isFinite(+a) && isFinite(+b)) return +a + +b;
 };
