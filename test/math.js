@@ -1,7 +1,13 @@
+/* eslint-env mocha */
 'use strict';
 
-exports.isStar = true;
+const { sum } = require('../math');
+const assert = require('assert');
 
-exports.sum = function (a, b) {
-    return a + b;
-};
+describe('Math', function () {
+    describe('sum', function () {
+        it('should sum `1` and `2` and get `3`', function () {
+            assert.strictEqual(sum(1, 2), 3);
+        });
+    });
+});
