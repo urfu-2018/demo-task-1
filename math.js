@@ -3,16 +3,16 @@
 exports.isStar = true;
 exports.sum = sum;
 
-function sum(){
+function sum() {
     let result = 0;
     for (let i = 0; i < arguments.length; i++) {
         let number = parseInt(arguments[i], 10);
-        if (number)
+        if (number) {
             result += number;
-        else
+        } else {
             return NaN;
+        }
     }
+
     return result;
 }
-
-
