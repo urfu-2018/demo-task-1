@@ -2,15 +2,7 @@
 
 exports.isStar = true;
 
-exports.sum = function (a, b) {
-    if (isNaN(a) || isNaN(b)) {
-        return 0;
-    }
-
-    return a + b;
-};
-
-exports.sum = function (a, b, c) {
+exports.sum = function (a, b, c = 0) {
     if (isNaN(a) || isNaN(b) || isNaN(c)) {
         return 0;
     }
