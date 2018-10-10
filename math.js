@@ -3,6 +3,6 @@
 exports.isStar = true;
 
 exports.sum = function (...args) {
-    return args.reduce((a, b)=>Number(a) + b);
+    return args.map(Number).reduce((a, b)=>a + b);
 };
 
