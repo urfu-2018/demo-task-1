@@ -7,7 +7,7 @@ exports.sum = function (...nums) {
 
     for (let i = 0; i < nums.length; i++) {
         if (!isNaN(nums[i])) {
-            sum += nums[i];
+            sum += Number(nums[i]);
         }
     }
 
