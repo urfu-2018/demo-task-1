@@ -4,7 +4,7 @@ exports.isStar = true;
 exports.sum = sum;
 
 function sum() {
-    if (arguments.length == 0) {
+    if (arguments.length === 0) {
         return NaN;
     }
     let result = 0;
