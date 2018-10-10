@@ -3,5 +3,10 @@
 exports.isStar = true;
 
 exports.sum = function (a, b) {
-    // Реализуйте сложение в этой функции
+    let summa = parseInt(a) + parseInt(b);
+    if (arguments[2] !== undefined) {
+        summa += parseInt(arguments[2]);
+    }
+
+    return summa;
 };
