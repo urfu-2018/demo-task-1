@@ -3,5 +3,5 @@
 exports.isStar = true;
 
 exports.sum = function (a, b, c) {
-    return Number(a) + b + (c || 0);
+    return Number(a || 0) + (b || 0) + (c || 0);
 };
