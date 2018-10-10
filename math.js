@@ -2,9 +2,6 @@
 
 exports.isStar = true;
 
-exports.sum = function (a, b, c) {
-    if (c === undefined) {
-        return a + b;
-    }
-    return a + b + c;
+exports.sum = function (...args) {
+    return args.map(Number).reduce((sum, next) => sum + next);
 };
