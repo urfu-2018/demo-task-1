@@ -2,6 +2,12 @@
 
 exports.isStar = true;
 
-exports.sum = function (a = 0, b = 0, c = 0) {
-    return a + b + c;
+exports.sum = function (...nums) {
+    let sum = 0;
+
+    for (let i = 0; i < nums.length; i++) {
+        sum += nums[i];
+    }
+
+    return sum;
 };
