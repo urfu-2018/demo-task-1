@@ -3,5 +3,7 @@
 exports.isStar = true;
 
 exports.sum = function (a, b) {
-    // Реализуйте сложение в этой функции
+    if (isFinite(Number(a)) && isFinite(Number(a))) {
+        return Number(a) + Number(b);
+    }
 };
