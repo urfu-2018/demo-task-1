@@ -13,4 +13,4 @@ function sum() {
     }
 
     return amount;
-};
+}
