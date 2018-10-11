@@ -9,12 +9,7 @@ function sum() {
     }
     let result = 0;
     for (let i = 0; i < arguments.length; i++) {
-        let number = parseInt(arguments[i], 10);
-        if (number) {
-            result += number;
-        } else {
-            return NaN;
-        }
+        result += parseInt(arguments[i], 10);
     }
 
     return result;
