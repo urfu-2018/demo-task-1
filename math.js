@@ -2,6 +2,12 @@
 
 exports.isStar = true;
 
-exports.sum = function (a, b) {
-    // Реализуйте сложение в этой функции
+exports.sum = function () {
+    let sum = 0;
+    for (let i of arguments) {
+        sum += parseFloat(i);
+    }
+
+    return sum;
+
 };
