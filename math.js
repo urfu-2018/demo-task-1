@@ -1,7 +1,16 @@
 'use strict';
 
 exports.isStar = true;
+exports.sum = sum;
 
-exports.sum = function (a, b) {
-    // Реализуйте сложение в этой функции
-};
+function sum() {
+    if (arguments.length === 0) {
+        return NaN;
+    }
+    let result = 0;
+    for (let i = 0; i < arguments.length; i++) {
+        result += parseInt(arguments[i], 10);
+    }
+
+    return result;
+}
