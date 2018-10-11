@@ -1,11 +1,16 @@
 'use strict';
 
 exports.isStar = true;
+exports.sum = sum;
 
-exports.sum = function (a, b, c) {
+function sum() {
     if (arguments.length === 0) {
         return NaN;
     }
+    let sum = 0;
+    for (let i = 0; i < arguments.length; i++) {
+        sum += Number(arguments[i]);
+    }
 
-    return Number(a || 0) + (b || 0) + (c || 0);
+    return sum;
 };
