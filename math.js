@@ -2,9 +2,12 @@
 
 exports.isStar = true;
 
-exports.sum = function (a = 0, b = 0) {
-    let intA = parseInt(a);
-    let intB = parseInt(b);
+exports.sum = function () {
+    let sum = 0;
+    for (let i of arguments) {
+        sum += parseFloat(i);
+    }
 
-    return intA + intB;
+    return sum;
+
 };
