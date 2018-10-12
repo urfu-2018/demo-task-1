@@ -2,7 +2,7 @@
 
 exports.isStar = true;
 
-exports.sum = function (a, b, c) {
+exports.sum = function (a, b) {
     /*if (isFinite(с)) {
         return a + b + c;
     }*/
