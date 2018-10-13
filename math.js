@@ -3,10 +3,10 @@
 exports.isStar = true;
 
 exports.sum = function (...args) {
-    let sum = 0;
-    args.forEach(elem => {
-        sum += elem;
-    });
+    let sum = args[0];
+    for (let i = 1; i < args.length; ++i) {
+        sum += args[i];
+    }
 
     return sum;
 };
