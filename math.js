@@ -3,5 +3,5 @@
 exports.isStar = true;
 
 exports.sum = function (a, b) {
-    return parseFloat(a) + parseFloat(b);
+    return a+ parseFloat(b);
 };
