@@ -2,9 +2,10 @@
 
 exports.isStar = true;
 
-exports.sum = function (a, b) {
-    if (!Number.isInteger(a) || !Number.isInteger(b)) {
+exports.sum = function (a, b, c) {
+    if (!Number.isInteger(a) || !Number.isInteger(b) || (c !== undefined && !Number.isInteger(c))) {
         throw new TypeError();
     }
 
-    return a + b;};
+    return c === undefined ? a + b : a + b + c;
+};
