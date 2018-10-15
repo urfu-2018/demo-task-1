@@ -4,7 +4,7 @@ exports.isStar = true;
 
 exports.sum = function (a, b) {
 
-    let sum = a + b;
+    const sum = a + b;
 
     return sum;
 };
