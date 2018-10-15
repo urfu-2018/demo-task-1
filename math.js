@@ -3,8 +3,8 @@
 exports.isStar = true;
 
 exports.sum = function (a, b) {
-    var a = parseNum(a);
-    var b = parseNum(b);
+    a = parseNum(a);
+    b = parseNum(b);
 
     if (!a || !b) {
         return false;
@@ -14,9 +14,9 @@ exports.sum = function (a, b) {
 };
 
 function parseNum(n) {
-    var n = +n;
+    n = Number(n);
 
-    if (n == NaN) {
+    if (isNaN(n)) {
         return false;
     }
 
