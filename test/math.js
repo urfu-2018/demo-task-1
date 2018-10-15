@@ -7,7 +7,7 @@ const assert = require('assert');
 describe('Math', function () {
     describe('sum', function () {
         it('should sum `1` and `2` and get `3`', function () {
-            assert.strictEqual(sum(1, 2), 3);
+            assert.strictEqual(sum(1.2, 2), 3.2);
         });
     });
 });
