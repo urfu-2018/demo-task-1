@@ -3,7 +3,7 @@
 exports.isStar = true;
 
 exports.sum = function (a, b) {
-    if (isNaN(a) || isNaN(b)) {
+    if (!isFinite(a) || !isFinite(b)) {
         throw new TypeError('В аргументы переданы не числа');
     }
 
