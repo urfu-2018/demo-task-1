@@ -4,9 +4,9 @@ exports.isStar = true;
 
 exports.sum = function (a, b) {
     let sum = 0;
-    if (typeof(a)==='number' && typeof(b)==='number') {
+    if (typeof(a) === 'number' && typeof(b) === 'number') {
         sum = a + b;
-    } else if (typeof(a)==='number' || typeof(b)==='number') {
+    } else {
         sum = Number(a) + Number(b);
     }
 
