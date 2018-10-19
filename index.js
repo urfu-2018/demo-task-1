@@ -8,5 +8,5 @@ console.info(sum(1, 2));
 console.info(sum(63, 15));
 // 78
 
-console.info(sum('12s', 7));
+console.info(sum('12', 7));
 // 19
