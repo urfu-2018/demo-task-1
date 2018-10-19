@@ -3,11 +3,9 @@
 exports.isStar = true;
 
 exports.sum = function (a, b) {
-    let sum = 0;
-    if (typeof(a) === 'number' && typeof(b) === 'number') {
-        sum = a + b;
-    } else {
-        sum = Number(a) + Number(b);
+    const sum = Number(a) + Number(b);
+    if (typeof(sum) !== 'number' || sum === 'NaN') {
+        return 'undefined';
     }
 
     return sum;
