@@ -2,10 +2,11 @@
 
 exports.isStar = true;
 
-exports.sum = function (a, b) {
-    if (!Number.isFinite(a) || !Number.isInteger(b)) {
-        throw new TypeError();
+exports.sum = function () {
+    var sum = 0;
+    for (var i = 0; i < arguments.length; i++) {
+        sum += Number(arguments[i]);
     }
 
-    return Number.parseFloat(a) + Number.parseFloat(b);
+    return sum;
 };
